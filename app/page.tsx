@@ -356,7 +356,7 @@ export default function Home() {
                     </div>
                     <div className="project-link-inline">
                       <a
-                        href="https://ashalearnology.vercel.app/"
+                        href="https://rahini-roy.vercel.app/"
                         className="contact-link"
                         target="_blank"
                         rel="noopener noreferrer"
