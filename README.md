@@ -58,9 +58,6 @@ The design is customizable through `app/globals.css`:
 - Spacing and layout
 - Section styling
 
-### Profile Photo
-Replace `public/aman-profile.jpg` with your own profile image.
-
 ## 📄 PDF Generation
 
 The template includes built-in PDF generation functionality:
