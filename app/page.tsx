@@ -265,8 +265,11 @@ export default function Home() {
               <div className="section-header">
                 <div className="section-title">Summary</div>
               </div>
-              <div className="summary-text">
-               Full Stack Developer skilled in building web applications using React, Next.js, and modern backend technologies, with a focus on clean code, performance, and user-friendly design.
+
+              <div className="summary-text ">
+                Full Stack Developer skilled in building web applications using
+                React, Next.js, and modern backend technologies, with a focus on
+                clean code, performance, and user-friendly design.
               </div>
             </div>
 
@@ -315,7 +318,7 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <div className="job-date">Aug 2025 - Oct 2025</div>
+                  <div className="job-date">Aug 2025 - Jan 2025</div>
                   <div className="job-description">
                     Visa Consultation & Immigration Services Website
                   </div>
@@ -365,7 +368,7 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <div className="job-date">May 2025 - Present</div>
+                  <div className="job-date">May 2025 - Sep 2025</div>
                   <div className="job-description">
                     Corporate Website for Construction & Renovation Services
                   </div>
@@ -402,11 +405,11 @@ export default function Home() {
                   {/* <div className="job-title">Frontend Developer</div> */}
                   <div className="company-name-with-link">
                     <div className="company-name">
-                      Paryatan Sarathi – Tours & Travel (Demo Project)
+                      Paryatan Sarathi – Tours & Travel
                     </div>
                     <div className="project-link-inline">
                       <a
-                        href="https://ashalearnology.vercel.app/"
+                        href=""
                         className="contact-link"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -415,9 +418,9 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <div className="job-date">Mar 2025 - May 2025</div>
+                  <div className="job-date">Mar 2025 - Present</div>
                   <div className="job-description">
-                    Tours & Travel Booking Demo Website
+                    Tours & Travel Booking Website
                   </div>
                   <ul className="bullet-list">
                     <li className="bullet-item">
@@ -451,11 +454,11 @@ export default function Home() {
                   {/* <div className="job-title">Frontend Developer</div> */}
                   <div className="company-name-with-link">
                     <div className="company-name">
-                      TravelEase – Hotels & Tourist Destinations
+                      Ravio E-commerce Clothing Website
                     </div>
                     <div className="project-link-inline">
                       <a
-                        href="https://adiroha.vercel.app/"
+                        href=""
                         className="contact-link"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -466,28 +469,28 @@ export default function Home() {
                   </div>
                   <div className="job-date">Mar 2025 - May 2025</div>
                   <div className="job-description">
-                    Hotel & Tourist Destination Booking Platform
+                    E-commerce Clothing Website
                   </div>
                   <ul className="bullet-list">
                     <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
-                        Built a frontend interface for hotel and destination
-                        discovery platform
+                        Developed an e-commerce platform for selling clothes
+                        online
                       </span>
                     </li>
                     <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
-                        Designed engaging UI for hotel listings, destinations,
-                        and booking flow
+                        Designed responsive and visually appealing product pages
+                        and landing pages
                       </span>
                     </li>
                     <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
-                        Focused on performance, responsiveness, and modern
-                        travel UI design
+                        Implemented intuitive UI for browsing products,
+                        filtering categories, and managing shopping cart
                       </span>
                     </li>
                   </ul>
@@ -520,8 +523,8 @@ export default function Home() {
                   <div className="skill-category">
                     <div className="skill-category-title">Backend</div>
                     <div className="skill-list">
-                      Node JS, Express JS, MongoDB, Cloudinary,
-                      Bcrypt, Nodemailer
+                      Node JS, Express JS, MongoDB, Cloudinary, Bcrypt,
+                      Nodemailer
                     </div>
                   </div>
                 </div>
@@ -580,13 +583,13 @@ export default function Home() {
               </div>
               <div className="section-content">
                 <div className="strength-item">
-                  <svg
+                  {/* <svg
                     className="strength-icon"
                     viewBox="0 0 24 24"
                     fill="currentColor"
                   >
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                  </svg>
+                  </svg> */}
                   {/* <div className="strength-content">
                     <div className="strength-title">Problem-solving</div>
                     <div className="strength-description">
@@ -637,74 +640,59 @@ export default function Home() {
                     </div>
                   </div>
                 </div> */}
-                  <div className="strength-content">
-                    <div className="strength-title">Problem-Solving</div>
-                    <div className="strength-description">
-                      Strong problem-solving skills with effective debugging of
-                      frontend issues
+
+                  <div className="section-content">
+                    <div className="strength-item">
+                      <div className="strength-content">
+                        <div className="strength-title">
+                          Problem Solving & Debugging
+                        </div>
+                        <div className="strength-description">
+                          Strong problem-solving skills with effective debugging
+                          of both frontend and backend issues
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
 
-                <div className="item-separator"></div>
+                    <div className="item-separator"></div>
 
-                <div className="strength-item">
-                  <svg
-                    className="strength-icon"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M9 21c0 .5.4 1 1 1h4c.6 0 1-.5 1-1v-1H9v1zm3-19C8.1 2 5 5.1 5 9c0 2.4 1.2 4.5 3 5.7V17c0 .5.4 1 1 1h6c.6 0 1-.5 1-1v-2.3c1.8-1.3 3-3.4 3-5.7 0-3.9-3.1-7-7-7z" />
-                  </svg>
-                  <div className="strength-content">
-                    <div className="strength-title">UI/UX Development</div>
-                    <div className="strength-description">
-                      Proficient in designing intuitive, user-friendly, and
-                      visually appealing frontend interfaces
+                    <div className="strength-item">
+                      <div className="strength-content">
+                        <div className="strength-title">Development Skills</div>
+                        <div className="strength-description">
+                          Experience in building frontend interfaces and
+                          handling backend logic, APIs, and databases
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
 
-                <div className="item-separator"></div>
+                    <div className="item-separator"></div>
 
-                <div className="strength-item">
-                  <svg
-                    className="strength-icon"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M17,7H22V17H17V19A1,1 0 0,0 18,20H20V22H17.5C16.95,22 16,21.55 16,21C16,21.55 15.05,22 14.5,22H12V20H14A1,1 0 0,0 15,19V17H8.82L9.8,14.63C10.33,13.45 10.33,12.55 9.8,11.37L8.69,8.87C8.16,7.69 7.21,7.24 6.27,7.87L4.69,8.87C4.16,9.69 4.21,10.24 4.27,10.87L5.44,13.12C5.78,13.81 6.22,14.42 6.82,14.88L7.58,15.47C7.74,15.59 7.9,15.71 8.06,15.83L6.82,19.15C6.5,20.05 6.84,21 7.71,21.35C8.58,21.7 9.5,21.36 9.85,20.49L11.06,17.34C11.22,16.9 11.06,16.44 10.75,16.15L10.44,15.91C10.25,15.76 10.07,15.6 9.91,15.43L9.15,14.84C8.5,14.34 8,13.65 7.71,12.87L6.54,10.62C6.5,10.55 6.46,10.42 6.5,10.34L8.08,9.34C8.22,9.26 8.46,9.3 8.6,9.5L9.71,12C10.05,12.85 10.05,13.65 9.71,14.5L8.5,17.5H14V5A1,1 0 0,1 15,4H22V6H17V7M19,8V6H20V8H19M19,9H20V15H19V9Z" />
-                  </svg>
-                  <div className="strength-content">
-                    <div className="strength-title">Frontend Performance</div>
-                    <div className="strength-description">
-                      Experienced in optimizing frontend performance,
-                      responsiveness, and smooth animations
+                    <div className="strength-item">
+                      <div className="strength-content">
+                        <div className="strength-title">Performance</div>
+                        <div className="strength-description">
+                          Focused on improving website speed, smooth
+                          functionality, and overall user experience
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
 
-                <div className="item-separator"></div>
+                    <div className="item-separator"></div>
 
-                <div className="strength-item">
-                  <svg
-                    className="strength-icon"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A1.5 1.5 0 0 0 18.54 8H17c-.8 0-1.54.37-2 1l-3 4v2l3-3v8h5zM12.5 11.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5zM5.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm1.5 2h-2C3.57 8 2.5 9.57 2.5 11.5V22h2v-3.5h3V22h2v-6.5c0-1.93-1.07-3.5-2.5-3.5zm6.5 4L12 18h2l1.5-6H15z" />
-                  </svg>
-                  <div className="strength-content">
-                    <div className="strength-title">Team Collaboration</div>
-                    <div className="strength-description">
-                      Collaborative team player with strong communication and
-                      adaptability
+                    <div className="strength-item">
+                      <div className="strength-content">
+                        <div className="strength-title">Team Collaboration</div>
+                        <div className="strength-description">
+                          Collaborative team player with strong communication
+                          and adaptability
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
