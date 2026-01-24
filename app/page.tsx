@@ -309,7 +309,7 @@ export default function Home() {
                     </div>
                     <div className="project-link-inline">
                       <a
-                        href="https://wave-visas.vercel.app/"
+                        href="https://www.wavevisas.com/"
                         className="contact-link"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -391,7 +391,7 @@ export default function Home() {
                     <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
-                        Focused on clean UI/UX for improved brand presence and
+                        Focused on clean UI for improved brand presence and
                         client trust
                       </span>
                     </li>
@@ -409,12 +409,12 @@ export default function Home() {
                     </div>
                     <div className="project-link-inline">
                       <a
-                        href=""
+                        href="https://www.paryatansarathi.com/"
                         className="contact-link"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        🔗 Live Demo
+                        🔗 Live website
                       </a>
                     </div>
                   </div>
@@ -458,7 +458,7 @@ export default function Home() {
                     </div>
                     <div className="project-link-inline">
                       <a
-                        href=""
+                        href="https://ecommerce-cloths-24x7.vercel.app/"
                         className="contact-link"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -512,7 +512,7 @@ export default function Home() {
                     <div className="skill-category-title">Frontend</div>
                     <div className="skill-list">
                       HTML, CSS, JavaScript, React.js, Vite.js, Redux, Next.js,
-                      Tailwind CSS, Material UI, Bootstrap
+                      Tailwind CSS,Bootstrap
                     </div>
                   </div>
                 </div>
@@ -534,7 +534,7 @@ export default function Home() {
                 <div className="skills-item">
                   <div className="skill-category">
                     <div className="skill-category-title">Languages</div>
-                    <div className="skill-list">JavaScript, C, C++, Java</div>
+                    <div className="skill-list">JavaScript, C, C++</div>
                   </div>
                 </div>
 
