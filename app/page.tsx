@@ -214,7 +214,7 @@ export default function Home() {
                   github
                 </a>
               </div>
-              {/* <div className="contact-item">
+              <div className="contact-item">
                 <svg
                   className="contact-icon"
                   viewBox="0 0 24 24"
@@ -223,7 +223,7 @@ export default function Home() {
                   <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
                 </svg>
                 <a
-                  href="https://amankanojiya27.vercel.app/"
+                  href="https://priyakumari02.vercel.app/"
                   className="contact-link contact-text"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -231,7 +231,7 @@ export default function Home() {
                 >
                   Portfolio
                 </a>
-              </div> */}
+              </div>
               <div className="contact-item">
                 <svg
                   className="contact-icon"

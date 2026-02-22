@@ -50,7 +50,7 @@ body {
 }
 
 .name-field {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 700;
   color: #1a1a1a;
   margin-bottom: 4px;
@@ -741,5 +741,9 @@ body {
     display: none !important;
   }
 }
+
+
+
+
 
 
