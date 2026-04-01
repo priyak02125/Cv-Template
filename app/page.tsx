@@ -214,6 +214,7 @@ export default function Home() {
                   github
                 </a>
               </div>
+
               <div className="contact-item">
                 <svg
                   className="contact-icon"
@@ -276,7 +277,7 @@ export default function Home() {
             {/* Current Employment Section */}
             <div className="section-container">
               <div className="section-header">
-                <div className="section-title">Intership Expercience</div>
+                <div className="section-title">Professional Experience</div>
               </div>
               <div className="section-content">
                 <div className="resume-item">
@@ -284,11 +285,13 @@ export default function Home() {
                     Asha Tech (Asha Learnology)
                   </div>
                   <div className="job-title mt-5">
-                    Full stack Developer - Full Time
+                    Full Stack Developer - Full Time
                   </div>
-                  <div className="job-date">April 2025 - November 2025</div>
+                  <div className="job-date">April 2025 - Present</div>
                   <div className="job-description">
-                    Successfully completed 6-month Internship.
+                    Working as a Full Stack Developer with 1 year of hands-on
+                    experience in building responsive and scalable web
+                    applications.
                   </div>
                 </div>
               </div>
