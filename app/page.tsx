@@ -321,7 +321,7 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <div className="job-date">Aug 2025 - Jan 2025</div>
+                  <div className="job-date">Aug 2025 - Jan 2026</div>
                   <div className="job-description">
                     Visa Consultation & Immigration Services Website
                   </div>
@@ -421,7 +421,7 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <div className="job-date">Mar 2025 - Present</div>
+                  <div className="job-date">Aug 2025 - Present</div>
                   <div className="job-description">
                     Tours & Travel Booking Website
                   </div>
@@ -451,7 +451,6 @@ export default function Home() {
                 </div>
 
                 <div className="item-separator"></div>
-
                 {/* Project 4 */}
                 <div className="resume-item">
                   {/* <div className="job-title">Frontend Developer</div> */}
@@ -470,7 +469,7 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <div className="job-date">Mar 2025 - May 2025</div>
+                  <div className="job-date">Dec 2025 - Jan 2026</div>
                   <div className="job-description">
                     E-commerce Clothing Website
                   </div>
