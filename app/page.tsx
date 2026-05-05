@@ -1,3 +1,4 @@
+// File: app/page.tsx
 "use client";
 // import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -267,10 +268,12 @@ export default function Home() {
                 <div className="section-title">Summary</div>
               </div>
 
-              <div className="summary-text ">
-                Full Stack Developer skilled in building web applications using
-                React, Next.js, and modern backend technologies, with a focus on
-                clean code, performance, and user-friendly design.
+              <div className="summary-text">
+                Full Stack Developer with hands-on experience in building
+                scalable web applications using React, Next.js, Node.js, and
+                MongoDB. Skilled in developing both frontend interfaces and
+                backend APIs, with a strong focus on performance, clean
+                architecture, and user-centric design.
               </div>
             </div>
 
@@ -289,9 +292,18 @@ export default function Home() {
                   </div>
                   <div className="job-date">April 2025 - Present</div>
                   <div className="job-description">
-                    Working as a Full Stack Developer with 1 year of hands-on
-                    experience in building responsive and scalable web
-                    applications.
+                    Working as a Full Stack Developer with hands-on experience
+                    in building scalable web applications, developing REST APIs,
+                    managing databases, and creating responsive user interfaces.
+                  </div>
+                  <div>
+                    <li className="bullet-item">
+                      {/* <span className="bullet-dot">•</span> */}
+                      <span>
+                        Developed backend APIs and handled form data processing
+                        using Node.js and Express.
+                      </span>
+                    </li>
                   </div>
                 </div>
               </div>
@@ -304,6 +316,73 @@ export default function Home() {
               </div>
               <div className="section-content">
                 {/* Project 1 */}
+
+                <div className="resume-item">
+                  <div className="company-name-with-link">
+                    <div className="company-name">
+                      Institute CRM System – Student & Operations Management
+                    </div>
+                     <div className="project-link-inline">
+                      {/* <a
+                        href="https://asha-crm.vercel.app/"
+                        className="contact-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        🔗 Live Demo
+                      </a> */}
+                    </div>
+                  </div>
+                  
+                  <div className="job-date">Feb 2026 - Present</div>
+      
+                  <div className="job-description">
+                     CRM system for managing institute operations
+                    including students, staff, batches, courses, and fee
+                    tracking
+                  </div>
+                  
+                  <ul className="bullet-list">
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Developed a complete CRM system to manage students,
+                        staff, batches, courses, enrollments, and fee records
+                      </span>
+                    </li>
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Built secure REST APIs using Node.js and Express for
+                        handling CRUD operations and business logic
+                      </span>
+                    </li>
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Designed MongoDB database schemas for efficient data
+                        storage and relationships between entities
+                      </span>
+                    </li>
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Implemented authentication and role-based access for
+                        admin/staff using JWT and Bcrypt
+                      </span>
+                    </li>
+                    {/* <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Developed responsive admin dashboard using React,
+                        Next.js, and Tailwind CSS for managing operations
+                      </span>
+                    </li> */}
+                  </ul>
+                </div>
+
+                <div className="item-separator"></div>
+                {/* Project 2 */}
                 <div className="resume-item">
                   {/* <div className="job-title">Frontend Developer</div> */}
                   <div className="company-name-with-link">
@@ -353,7 +432,7 @@ export default function Home() {
 
                 <div className="item-separator"></div>
 
-                {/* Project 2 */}
+                {/* Project 3 */}
                 <div className="resume-item">
                   {/* <div className="job-title">Frontend Developer</div> */}
                   <div className="company-name-with-link">
@@ -402,55 +481,6 @@ export default function Home() {
                 </div>
 
                 <div className="item-separator"></div>
-
-                {/* Project 3 */}
-                <div className="resume-item">
-                  {/* <div className="job-title">Frontend Developer</div> */}
-                  <div className="company-name-with-link">
-                    <div className="company-name">
-                      Paryatan Sarathi – Tours & Travel
-                    </div>
-                    <div className="project-link-inline">
-                      <a
-                        href="https://www.paryatansarathi.com/"
-                        className="contact-link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        🔗 Live website
-                      </a>
-                    </div>
-                  </div>
-                  <div className="job-date">Aug 2025 - Present</div>
-                  <div className="job-description">
-                    Tours & Travel Booking Website
-                  </div>
-                  <ul className="bullet-list">
-                    <li className="bullet-item">
-                      <span className="bullet-dot">•</span>
-                      <span>
-                        Created a demo tours and travel platform showcasing tour
-                        packages and destinations
-                      </span>
-                    </li>
-                    <li className="bullet-item">
-                      <span className="bullet-dot">•</span>
-                      <span>
-                        Developed visually appealing landing pages with
-                        responsive design
-                      </span>
-                    </li>
-                    <li className="bullet-item">
-                      <span className="bullet-dot">•</span>
-                      <span>
-                        Implemented intuitive UI for browsing packages and
-                        travel information
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="item-separator"></div>
                 {/* Project 4 */}
                 <div className="resume-item">
                   {/* <div className="job-title">Frontend Developer</div> */}
@@ -477,8 +507,8 @@ export default function Home() {
                     <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
-                        Developed an e-commerce platform for selling clothes
-                        online
+                        Developed a full-stack e-commerce platform for selling
+                        clothes online
                       </span>
                     </li>
                     <li className="bullet-item">
@@ -493,6 +523,20 @@ export default function Home() {
                       <span>
                         Implemented intuitive UI for browsing products,
                         filtering categories, and managing shopping cart
+                      </span>
+                    </li>
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Built backend APIs using Node.js and Express for product
+                        management, cart operations, and order handling
+                      </span>
+                    </li>
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Integrated MongoDB for storing product data, user
+                        information, and order details
                       </span>
                     </li>
                   </ul>
@@ -525,8 +569,7 @@ export default function Home() {
                   <div className="skill-category">
                     <div className="skill-category-title">Backend</div>
                     <div className="skill-list">
-                      Node JS, Express JS, MongoDB, Cloudinary, Bcrypt,
-                      Nodemailer
+                     Node.js, Express.js, MongoDB, REST APIs, Authentication (JWT/Bcrypt), Cloudinary, Nodemailer
                     </div>
                   </div>
                 </div>
