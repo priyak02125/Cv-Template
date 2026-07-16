@@ -322,7 +322,7 @@ export default function Home() {
                     <div className="company-name">
                       Institute CRM System – Student & Operations Management
                     </div>
-                     <div className="project-link-inline">
+                    <div className="project-link-inline">
                       {/* <a
                         href="https://asha-crm.vercel.app/"
                         className="contact-link"
@@ -333,15 +333,13 @@ export default function Home() {
                       </a> */}
                     </div>
                   </div>
-                  
-                  <div className="job-date">Feb 2026 - Present</div>
-      
+
+                  <div className="job-date">Feb 2026 - April 2026</div>
                   <div className="job-description">
-                     CRM system for managing institute operations
-                    including students, staff, batches, courses, and fee
-                    tracking
+                    CRM system for managing institute operations including
+                    students, staff, batches, courses, and fee tracking
                   </div>
-                  
+
                   <ul className="bullet-list">
                     <li className="bullet-item">
                       <span className="bullet-dot">•</span>
@@ -371,13 +369,88 @@ export default function Home() {
                         admin/staff using JWT and Bcrypt
                       </span>
                     </li>
-                    {/* <li className="bullet-item">
+                    <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
                         Developed responsive admin dashboard using React,
                         Next.js, and Tailwind CSS for managing operations
                       </span>
-                    </li> */}
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="item-separator"></div>
+                <div className="resume-item">
+                  <div className="company-name-with-link">
+                    <div className="company-name">
+                      Asha Jobs – Recruitment & Job Portal Platform
+                    </div>
+
+                    <div className="project-link-inline">
+                      <a
+                        href="https://asha-jobs-rtef.vercel.app/"
+                        className="contact-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        🔗 Live Demo
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="job-date">April 2026 - Present</div>
+
+                  <div className="job-description">
+                    Full-stack recruitment platform for connecting recruiters
+                    and job seekers with job posting, applications, profile
+                    management, and hiring workflow.
+                  </div>
+
+                  <ul className="bullet-list">
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Developed a complete recruitment platform with recruiter
+                        and candidate modules including authentication, profile
+                        management, and job posting.
+                      </span>
+                    </li>
+
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Built secure REST APIs using Node.js, Express, and
+                        MongoDB for jobs, applications, saved jobs, recruiter
+                        profiles, and candidate profiles.
+                      </span>
+                    </li>
+
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Implemented JWT authentication, role-based
+                        authorization, resume upload using Cloudinary, and
+                        protected API routes.
+                      </span>
+                    </li>
+
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Designed responsive user interfaces using Next.js,
+                        React, Tailwind CSS, and Redux Toolkit for recruiters
+                        and candidates.
+                      </span>
+                    </li>
+
+                    <li className="bullet-item">
+                      <span className="bullet-dot">•</span>
+                      <span>
+                        Developed complete hiring workflow including job
+                        applications, applicant management, interview tracking,
+                        saved jobs, and profile update functionality.
+                      </span>
+                    </li>
                   </ul>
                 </div>
 
@@ -564,12 +637,12 @@ export default function Home() {
                 </div>
 
                 <div className="item-separator"></div>
-
                 <div className="skills-item">
                   <div className="skill-category">
                     <div className="skill-category-title">Backend</div>
                     <div className="skill-list">
-                     Node.js, Express.js, MongoDB, REST APIs, Authentication (JWT/Bcrypt), Cloudinary, Nodemailer
+                      Node.js, Express.js, MongoDB, MySQL, REST APIs,
+                      Authentication (JWT/Bcrypt), Cloudinary, Nodemailer
                     </div>
                   </div>
                 </div>
