@@ -269,7 +269,7 @@ export default function Home() {
               </div>
 
               <div className="summary-text">
-                Full Stack Developer with hands-on experience in building
+                Full Stack Developer with 2 Years hands-on experience in building
                 scalable web applications using React, Next.js, Node.js, and
                 MongoDB. Skilled in developing both frontend interfaces and
                 backend APIs, with a strong focus on performance, clean
@@ -290,20 +290,18 @@ export default function Home() {
                   <div className="job-title mt-5">
                     Full Stack Developer - Full Time
                   </div>
-                  <div className="job-date">April 2025 - Present</div>
+                  <div className="job-date">May 2024 - July 2026</div>
                   <div className="job-description">
-                    Working as a Full Stack Developer with hands-on experience
-                    in building scalable web applications, developing REST APIs,
-                    managing databases, and creating responsive user interfaces.
+                    Full Stack Developer at Asha Tech, building scalable web applications using MERN stack. Developed secure REST APIs with JWT, managed MongoDB databases, and created responsive UIs with React.js, Next.js & Tailwind CSS. Handled backend form processing using Node.js & Express.
                   </div>
                   <div>
-                    <li className="bullet-item">
+                    {/* <li className="bullet-item"> */}
                       {/* <span className="bullet-dot">•</span> */}
-                      <span>
+                      {/* <span>
                         Developed backend APIs and handled form data processing
                         using Node.js and Express.
-                      </span>
-                    </li>
+                      </span> */}
+                    {/* </li> */}
                   </div>
                 </div>
               </div>
@@ -314,8 +312,65 @@ export default function Home() {
               <div className="section-header">
                 <div className="section-title">Projects</div>
               </div>
-              <div className="section-content">
+
+              <div className="resume-item">
                 {/* Project 1 */}
+                <div className="company-name-with-link">
+                  <div className="company-name">
+                    Asha Jobs – Recruitment & Job Portal Platform
+                  </div>
+
+                  <div className="project-link-inline">
+                    <a
+                      href="https://asha-jobs-rtef.vercel.app/"
+                      className="contact-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      🔗 Live Demo
+                    </a>
+                  </div>
+                </div>
+
+                <div className="job-date">April 2026 - July 2026</div>
+
+                <div className="job-description">
+                  Full-stack recruitment platform for connecting recruiters and
+                  job seekers with job posting, applications, profile
+                  management, and hiring workflow.
+                </div>
+
+                <ul className="bullet-list">
+                  <li className="bullet-item">
+                    <span className="bullet-dot">•</span>
+                    <span>
+                      Built a recruitment platform with recruiter and candidate
+                      modules, including authentication and job posting.
+                    </span>
+                  </li>
+
+                  <li className="bullet-item">
+                    <span className="bullet-dot">•</span>
+                    <span>
+                      Developed secure REST APIs using Node.js, Express,
+                      MongoDB, and Cloudinary for jobs and applications.
+                    </span>
+                  </li>
+
+                  <li className="bullet-item">
+                    <span className="bullet-dot">•</span>
+                    <span>
+                      Designed responsive user interfaces using Next.js, React,
+                      Tailwind CSS, and Redux Toolkit.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="section-content">
+                <div className="item-separator"></div>
+
+                {/* Project 2 */}
 
                 <div className="resume-item">
                   <div className="company-name-with-link">
@@ -345,117 +400,30 @@ export default function Home() {
                       <span className="bullet-dot">•</span>
                       <span>
                         Developed a complete CRM system to manage students,
-                        staff, batches, courses, enrollments, and fee records
+                        staff, batches, courses, enrollments, and fee records.
                       </span>
                     </li>
+
                     <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
-                        Built secure REST APIs using Node.js and Express for
-                        handling CRUD operations and business logic
+                        Built secure REST APIs using Node.js, Express, MongoDB,
+                        and JWT-based authentication.
                       </span>
                     </li>
+
                     <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
-                        Designed MongoDB database schemas for efficient data
-                        storage and relationships between entities
-                      </span>
-                    </li>
-                    <li className="bullet-item">
-                      <span className="bullet-dot">•</span>
-                      <span>
-                        Implemented authentication and role-based access for
-                        admin/staff using JWT and Bcrypt
-                      </span>
-                    </li>
-                    <li className="bullet-item">
-                      <span className="bullet-dot">•</span>
-                      <span>
-                        Developed responsive admin dashboard using React,
-                        Next.js, and Tailwind CSS for managing operations
+                        Developed a responsive admin dashboard using React,
+                        Next.js, and Tailwind CSS.
                       </span>
                     </li>
                   </ul>
                 </div>
 
                 <div className="item-separator"></div>
-                <div className="resume-item">
-                  <div className="company-name-with-link">
-                    <div className="company-name">
-                      Asha Jobs – Recruitment & Job Portal Platform
-                    </div>
-
-                    <div className="project-link-inline">
-                      <a
-                        href="https://asha-jobs-rtef.vercel.app/"
-                        className="contact-link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        🔗 Live Demo
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="job-date">April 2026 - Present</div>
-
-                  <div className="job-description">
-                    Full-stack recruitment platform for connecting recruiters
-                    and job seekers with job posting, applications, profile
-                    management, and hiring workflow.
-                  </div>
-
-                  <ul className="bullet-list">
-                    <li className="bullet-item">
-                      <span className="bullet-dot">•</span>
-                      <span>
-                        Developed a complete recruitment platform with recruiter
-                        and candidate modules including authentication, profile
-                        management, and job posting.
-                      </span>
-                    </li>
-
-                    <li className="bullet-item">
-                      <span className="bullet-dot">•</span>
-                      <span>
-                        Built secure REST APIs using Node.js, Express, and
-                        MongoDB for jobs, applications, saved jobs, recruiter
-                        profiles, and candidate profiles.
-                      </span>
-                    </li>
-
-                    <li className="bullet-item">
-                      <span className="bullet-dot">•</span>
-                      <span>
-                        Implemented JWT authentication, role-based
-                        authorization, resume upload using Cloudinary, and
-                        protected API routes.
-                      </span>
-                    </li>
-
-                    <li className="bullet-item">
-                      <span className="bullet-dot">•</span>
-                      <span>
-                        Designed responsive user interfaces using Next.js,
-                        React, Tailwind CSS, and Redux Toolkit for recruiters
-                        and candidates.
-                      </span>
-                    </li>
-
-                    <li className="bullet-item">
-                      <span className="bullet-dot">•</span>
-                      <span>
-                        Developed complete hiring workflow including job
-                        applications, applicant management, interview tracking,
-                        saved jobs, and profile update functionality.
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="item-separator"></div>
-                {/* Project 2 */}
+                {/* Project 3 */}
                 <div className="resume-item">
                   {/* <div className="job-title">Frontend Developer</div> */}
                   <div className="company-name-with-link">
@@ -505,9 +473,8 @@ export default function Home() {
 
                 <div className="item-separator"></div>
 
-                {/* Project 3 */}
+                {/* Project 4 */}
                 <div className="resume-item">
-                  {/* <div className="job-title">Frontend Developer</div> */}
                   <div className="company-name-with-link">
                     <div className="company-name">
                       Rahini Roy Private Limited
@@ -587,31 +554,31 @@ export default function Home() {
                     <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
-                        Designed responsive and visually appealing product pages
-                        and landing pages
+                        Built responsive product pages, category filtering, and
+                        shopping cart.
                       </span>
                     </li>
                     <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
-                        Implemented intuitive UI for browsing products,
-                        filtering categories, and managing shopping cart
+                        Developed backend APIs using Node.js, Express, and
+                        MongoDB.
                       </span>
                     </li>
-                    <li className="bullet-item">
+                    {/* <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
                         Built backend APIs using Node.js and Express for product
                         management, cart operations, and order handling
                       </span>
-                    </li>
-                    <li className="bullet-item">
+                    </li> */}
+                    {/* <li className="bullet-item">
                       <span className="bullet-dot">•</span>
                       <span>
                         Integrated MongoDB for storing product data, user
                         information, and order details
                       </span>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -631,7 +598,7 @@ export default function Home() {
                     <div className="skill-category-title">Frontend</div>
                     <div className="skill-list">
                       HTML, CSS, JavaScript, React.js, Vite.js, Redux, Next.js,
-                      Tailwind CSS,Bootstrap
+                      Tailwind CSS, Bootstrap
                     </div>
                   </div>
                 </div>
@@ -641,8 +608,8 @@ export default function Home() {
                   <div className="skill-category">
                     <div className="skill-category-title">Backend</div>
                     <div className="skill-list">
-                      Node.js, Express.js, MongoDB, MySQL, REST APIs,
-                      Authentication (JWT/Bcrypt), Cloudinary, Nodemailer
+                      Node.js, Express.js, MongoDB, REST APIs, Authentication
+                      (JWT/Bcrypt), Cloudinary, Nodemailer
                     </div>
                   </div>
                 </div>
@@ -680,7 +647,7 @@ export default function Home() {
                     Master in Computer Applications (MCA)
                   </div>
                   <div className="education-school">IGNOU, Delhi</div>
-                  <div className="education-date">Persuing | 2025-Present </div>
+                  <div className="education-date">Pursuing | 2025-Present </div>
                 </div>
 
                 <div className="item-separator"></div>
